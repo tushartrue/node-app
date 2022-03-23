@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is to demo
+# This is to demo1
 
 node_app=`docker ps -a | grep nodeapp | awk '{print $NF}'`
 if [ $node_app=='nodeapp' ]; then
